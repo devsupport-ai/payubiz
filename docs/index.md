@@ -1,1 +1,1 @@
-# Payu Integration Documentation
+# Payu Integration
