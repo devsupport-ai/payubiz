@@ -2,13 +2,43 @@
     "docs": [
         {
             "location": "/", 
-            "text": "Payu Integration Documentation", 
-            "title": "Payu Integration Documentation"
+            "text": "PayUBiz PHP Integration\n\n\nAt PayU, we are committed to offer a seamless integration experience to our developers. \n\n\nWe are happy to launch Devsupport AI - a bot programmer that integrates PayU with your code in few minutes.\n\n\nAt the end of this, you can test accepting payments on PayU \nSandbox Environment\n.\n\n\nWhat do I need?\n\n\n\n\n\n\nMerchant Key\n\n\n\n\n\n\nSalt\n\n\n\n\n\n\nGet both these keys from \nPayU Dashboard\n\n\nPHP Integration\n\n\n\n\nDownload the \nDevsupport AI tool\n. Install the .exe if you are on Windows, mac.zip if you are on Mac and .deb if you are on Linux. You should see a screen below:\n\n\n\n\n\n\n\n\n\n\nCreate a folder on your computer and create an index.php or index.html file in the folder.\n\n\n\n\n\n\nOpen Devsupport AI tool and drop the folder in the tool when asked for.\n\n\n\n\n\n\nSearch for PayU when asked for Product you'd like to integrate\n\n\n\n\n\n\nClick on PayU Seamless or non-seamless Payment Integration\n\n\n\n\n\n\nEnter your Sandbox Merchant Key and Salt \n Proceed.   \nIf you enter wrong key combination, the tool will throw an error!\n\n\n\n\n\n\nDevsupport AI will give you response.php. We post the success/failure response on this URL. \n\n\nHost it on your server immediately after you download it.\n\n\n\n\n\n\nThe tool will also give you checkout.php - this file helps you initiate a seamless/non-seamless payment with PayU. \n\n\nHost this file on your server and keep the URL ready.\n\n\n\n\n\n\n Note that both response.php and checkout.php contain your Sandbox Credentials. DO NOT Modify them.\n  \n\n\n\n\nIf everything went well, you should see a success screen like this:\n\n\n\n\n\n\nSwitching to Production?\n\n\nGet your production merchant key and salt from \nPayU Production dashboard\n.\n\n\nChanges in response.php\n\n\n\n\nChange the Salt to Production Salt\n\n\nChange the Merchant Key to Production Merchant Key\n\n\n\n\nChanges in checkout.php\n\n\n\n\nChange the Salt to Production Salt\n\n\nChange the Merchant Key to Production Merchant Key\n\n\nChange the URL from https://test.payu.in to https://secure.payu.in \n\n\n\n\nYou can modify the amount and txn Id as per your logic\n\n\nVoila! If everything went well, you can open the page where you copy pasted the HTML tag and test the payments.\n\n\nNeed help?\n\n\nYou can chat with us using the orange icon on the tool or write us an email at support[at]devsupport[dot]ai - happy to help!", 
+            "title": "PayUBiz PHP Integration"
         }, 
         {
-            "location": "/#payu-integration-documentation", 
-            "text": "", 
-            "title": "Payu Integration Documentation"
+            "location": "/#payubiz-php-integration", 
+            "text": "At PayU, we are committed to offer a seamless integration experience to our developers.   We are happy to launch Devsupport AI - a bot programmer that integrates PayU with your code in few minutes.  At the end of this, you can test accepting payments on PayU  Sandbox Environment .", 
+            "title": "PayUBiz PHP Integration"
+        }, 
+        {
+            "location": "/#what-do-i-need", 
+            "text": "Merchant Key    Salt    Get both these keys from  PayU Dashboard", 
+            "title": "What do I need?"
+        }, 
+        {
+            "location": "/#php-integration", 
+            "text": "Download the  Devsupport AI tool . Install the .exe if you are on Windows, mac.zip if you are on Mac and .deb if you are on Linux. You should see a screen below:      Create a folder on your computer and create an index.php or index.html file in the folder.    Open Devsupport AI tool and drop the folder in the tool when asked for.    Search for PayU when asked for Product you'd like to integrate    Click on PayU Seamless or non-seamless Payment Integration    Enter your Sandbox Merchant Key and Salt   Proceed.    If you enter wrong key combination, the tool will throw an error!    Devsupport AI will give you response.php. We post the success/failure response on this URL.   Host it on your server immediately after you download it.    The tool will also give you checkout.php - this file helps you initiate a seamless/non-seamless payment with PayU.   Host this file on your server and keep the URL ready.     Note that both response.php and checkout.php contain your Sandbox Credentials. DO NOT Modify them.      If everything went well, you should see a success screen like this:", 
+            "title": "PHP Integration"
+        }, 
+        {
+            "location": "/#switching-to-production", 
+            "text": "Get your production merchant key and salt from  PayU Production dashboard .", 
+            "title": "Switching to Production?"
+        }, 
+        {
+            "location": "/#changes-in-responsephp", 
+            "text": "Change the Salt to Production Salt  Change the Merchant Key to Production Merchant Key", 
+            "title": "Changes in response.php"
+        }, 
+        {
+            "location": "/#changes-in-checkoutphp", 
+            "text": "Change the Salt to Production Salt  Change the Merchant Key to Production Merchant Key  Change the URL from https://test.payu.in to https://secure.payu.in    You can modify the amount and txn Id as per your logic  Voila! If everything went well, you can open the page where you copy pasted the HTML tag and test the payments.", 
+            "title": "Changes in checkout.php"
+        }, 
+        {
+            "location": "/#need-help", 
+            "text": "You can chat with us using the orange icon on the tool or write us an email at support[at]devsupport[dot]ai - happy to help!", 
+            "title": "Need help?"
         }
     ]
 }
